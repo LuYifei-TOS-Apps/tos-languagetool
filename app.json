@@ -1,7 +1,7 @@
 {
   "id": "languagetool",
-  "recipe": "languagetool-v1",
-  "version": "6.8.0.1",
+  "recipe": "languagetool-v2",
+  "version": "6.8.0.2",
   "publisher": "Lu Yifei",
   "help": "https://github.com/LuYifei-TOS-Apps/tos-languagetool#readme",
   "official": "https://github.com/languagetool-org/languagetool",
@@ -13,21 +13,21 @@
       "auth": "LanguageTool",
       "descript": "Check spelling and grammar locally using the LanguageTool HTTP API.",
       "important": "The API uses port 18884 and requires no authentication. Limit access to a trusted network and use a client that supports a custom LanguageTool server.",
-      "release_note": "Initial TOS package for LanguageTool 6.8."
+      "release_note": "Declare the image's non-root runtime user in Compose."
     },
     "zh-cn": {
       "name": "LanguageTool",
       "auth": "LanguageTool",
       "descript": "通过 NAS 上的 LanguageTool HTTP API 检查拼写和语法。",
       "important": "API 使用 18884 端口，无需身份验证。请限制为可信网络访问，并使用支持自定义 LanguageTool 服务的客户端。",
-      "release_note": "首次发布 LanguageTool 6.8 的 TOS 安装包。"
+      "release_note": "在 Compose 中明确指定镜像的非 root 运行用户。"
     },
     "zh-hk": {
       "name": "LanguageTool",
       "auth": "LanguageTool",
       "descript": "透過 NAS 上的 LanguageTool HTTP API 檢查拼字及文法。",
       "important": "API 使用 18884 連接埠，無須身分驗證。請限制為受信任的網絡存取，並使用支援自訂 LanguageTool 伺服器的用戶端。",
-      "release_note": "首次發佈 LanguageTool 6.8 的 TOS 安裝套件。"
+      "release_note": "在 Compose 中明確指定映像的非 root 執行使用者。"
     }
   }
 }
